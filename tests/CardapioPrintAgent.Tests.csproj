@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>CardapioPrintAgent.Tests</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\CardapioPrintAgent\AgentConfig.cs" Link="AgentConfig.cs" />
+    <Compile Include="..\CardapioPrintAgent\AppPaths.cs" Link="AppPaths.cs" />
+    <Compile Include="..\CardapioPrintAgent\PrintAgentEnrollment.cs" Link="PrintAgentEnrollment.cs" />
+    <Compile Include="..\CardapioPrintAgent\RawThermalPrinter.cs" Link="RawThermalPrinter.cs" />
+    <Compile Include="..\CardapioPrintAgent\TokenProtector.cs" Link="TokenProtector.cs" />
+  </ItemGroup>
+
+</Project>
